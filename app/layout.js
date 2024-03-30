@@ -20,6 +20,9 @@ export default function RootLayout({ children }) {
           <Link href="/about">
             <button className="m-2 p-2 border-2 rounded-xl">About</button>
           </Link>
+          <Link href="/blog">
+            <button className="m-2 p-2 border-2 rounded-xl">Blogs</button>
+          </Link>
         </nav>
         {children}
       </body>
