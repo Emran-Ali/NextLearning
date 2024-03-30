@@ -1,7 +1,12 @@
-
+import Buttton from "./Buttton";
 export default function AboutHome() {
   
   return (
-    <div className="fixed bottom-0 bg-cyan-500 w-full">Hello About Number </div>
-  )
+    <div>
+      <div className=" bg-cyan-500 w-full">
+        Hello About Number
+      </div>
+      <Buttton />
+    </div>
+  );
 }
